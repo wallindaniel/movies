@@ -33,7 +33,7 @@ const store =
 const cache = new ReduxCache({ store });
 
 const client = new ApolloClient({
-    link: new HttpLink({ uri: 'http://localhost:3000/graphql' }),
+    link: new HttpLink({ uri: '/graphql' }),
     cache
 });
 
