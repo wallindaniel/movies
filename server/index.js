@@ -2,6 +2,7 @@ var express = require('express');
 const router = require('express').Router();
 var graphqlMiddleware = require('./graphql');
 var path = require('path');
+var port = process.env.PORT || 3000;
 var app = express();
 
 app.use('/graphql', graphqlMiddleware());
@@ -31,7 +32,7 @@ app.get('/*', function(req, res) {
 });
 
 if (require.main === module) {
-  app.listen(3000, (error) => {
+  app.listen(port, (error) => {
     if (error) return console.error(error);
     console.log('Running grapqhl server')
   });
