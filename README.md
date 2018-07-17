@@ -1,6 +1,6 @@
 # Movielist
 
-Application som visar filmer med videospelare
+Applikation som visar filmer med videospelare.
 
 **Följande tekniker används:**
 
@@ -29,4 +29,4 @@ https://topmovielibrary.herokuapp.com/
 
 **Övrigtt:**
 
-Applicationen är optimerad för desktop och Chrome
+Applikationen är optimerad för desktop och Chrome.
