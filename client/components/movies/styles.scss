@@ -2,20 +2,23 @@
   font-family: 'Mylodon-Light', 'arial', 'sans-serif';
   text-align: center;
   color: #10B7FF;
+  margin-top: 50px;
 }
 
 .movie-list {
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
   margin: 0;
   padding: 0;
   list-style: none;
 
   .title {
     font-family: 'Mylodon-Light', 'arial', 'sans-serif';
-    font-size: 25px;
+    font-size: 18px;
     display: block;
     letter-spacing: 4px;
+    margin-bottom: 10px;
   }
 
   .list-item-wrapper {
@@ -31,6 +34,7 @@
     .list-item {
       border: 1px solid #10B7FF;
       height: 305px;
+      max-width: 500px;
       overflow: hidden;
       margin-bottom: 10px;
       text-align: center;

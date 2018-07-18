@@ -18,8 +18,8 @@ const Movie = props => {
         const idUpdater = direction === 'left' ? -1 : +1;
         let newId = parseInt(movie.id) + idUpdater;
         newId = direction === 'left'
-            ? newId === 0 ? 3 : newId
-            : newId > 3 ? 1 : newId;
+            ? newId === 0 ? 9 : newId
+            : newId > 9 ? 1 : newId;
 
         props.history.push(`/movie/${newId}`);
     }
