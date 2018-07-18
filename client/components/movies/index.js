@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import { Query } from 'react-apollo';
 import { connect } from 'react-redux';
 import { chooseMovie } from '../movies/functions';
@@ -11,7 +11,7 @@ const Movies = props => (
             if (loading) return "";
 
             return (
-                <Fragment>
+                <div className="movie-library">
                     <h1 className="heading">Movie Library</h1>
                     <ul className="movie-list">
                         {movies.map(movie => (
@@ -28,7 +28,7 @@ const Movies = props => (
                             </div>
                         ))}
                     </ul>
-                </Fragment>
+                </div>
             )
         }}
     </Query>

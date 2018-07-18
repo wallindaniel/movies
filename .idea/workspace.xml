@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16452bcd-b8f7-4160-8a4a-cd5f54b9dc3c" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/components/movie/styles.scss" afterPath="$PROJECT_DIR$/client/components/movie/styles.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/components/movies/index.js" afterPath="$PROJECT_DIR$/client/components/movies/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/client/static/bundle.js" afterPath="$PROJECT_DIR$/dist/client/static/bundle.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/components/movies/styles.scss" afterPath="$PROJECT_DIR$/client/components/movies/styles.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,24 +29,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="styles.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="styles.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client/components/movie/styles.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="759">
-              <caret line="41" column="1" lean-forward="true" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
+            <state relative-caret-position="685">
+              <caret line="38" column="24" lean-forward="false" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/components/movies/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="13" column="26" lean-forward="true" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
-              <folding>
-                <element signature="e#0#40#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="69">
+              <caret line="3" column="50" lean-forward="true" selection-start-line="3" selection-start-column="50" selection-end-line="3" selection-end-column="50" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -117,9 +116,11 @@
       <file leaf-file-name="styles.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/components/movies/styles.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="402">
-              <caret line="36" column="23" lean-forward="false" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
-              <folding />
+            <state relative-caret-position="867">
+              <caret line="60" column="7" lean-forward="true" selection-start-line="60" selection-start-column="7" selection-end-line="60" selection-end-column="7" />
+              <folding>
+                <marker date="1531897235000" expanded="true" signature="15:1594" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -213,10 +214,10 @@
         <option value="$PROJECT_DIR$/client/styles.scss" />
         <option value="$PROJECT_DIR$/client/components/movie/index.js" />
         <option value="$PROJECT_DIR$/dist/client/index.html" />
-        <option value="$PROJECT_DIR$/client/components/movies/styles.scss" />
         <option value="$PROJECT_DIR$/server/graphql.js" />
-        <option value="$PROJECT_DIR$/client/components/movie/styles.scss" />
         <option value="$PROJECT_DIR$/client/components/movies/index.js" />
+        <option value="$PROJECT_DIR$/client/components/movies/styles.scss" />
+        <option value="$PROJECT_DIR$/client/components/movie/styles.scss" />
       </list>
     </option>
   </component>
@@ -493,12 +494,12 @@
       <workItem from="1530894126346" duration="185165000" />
       <workItem from="1531254319089" duration="11213000" />
       <workItem from="1531497038939" duration="97831000" />
-      <workItem from="1531852026470" duration="20713000" />
+      <workItem from="1531852026470" duration="21609000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="314922000" />
+    <option name="totallyTimeSpent" value="315818000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="45" width="1910" height="1151" extended-state="0" />
@@ -721,7 +722,7 @@
         <state relative-caret-position="879">
           <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -747,7 +748,7 @@
         <state relative-caret-position="718">
           <caret line="36" column="9" lean-forward="true" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -804,14 +805,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/components/movies/styles.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="36" column="23" lean-forward="false" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server/graphql.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="857">
@@ -820,21 +813,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/components/movie/styles.scss">
+    <entry file="file://$PROJECT_DIR$/client/components/movies/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="759">
-          <caret line="41" column="1" lean-forward="true" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
+        <state relative-caret-position="69">
+          <caret line="3" column="50" lean-forward="true" selection-start-line="3" selection-start-column="50" selection-end-line="3" selection-end-column="50" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/components/movies/index.js">
+    <entry file="file://$PROJECT_DIR$/client/components/movies/styles.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="26" lean-forward="true" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+        <state relative-caret-position="867">
+          <caret line="60" column="7" lean-forward="true" selection-start-line="60" selection-start-column="7" selection-end-line="60" selection-end-column="7" />
           <folding>
-            <element signature="e#0#40#0" expanded="true" />
+            <marker date="1531897235000" expanded="true" signature="15:1594" ph="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/components/movie/styles.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="685">
+          <caret line="38" column="24" lean-forward="false" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
