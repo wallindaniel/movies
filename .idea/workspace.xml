@@ -2,12 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16452bcd-b8f7-4160-8a4a-cd5f54b9dc3c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/client/static/images/movie3.jpg" afterPath="$PROJECT_DIR$/dist/client/static/images/movie3.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/components/movie/index.js" afterPath="$PROJECT_DIR$/client/components/movie/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/components/movies/styles.scss" afterPath="$PROJECT_DIR$/client/components/movies/styles.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/styles.scss" afterPath="$PROJECT_DIR$/client/styles.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/client/index.html" afterPath="$PROJECT_DIR$/dist/client/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/client/static/bundle.js" afterPath="$PROJECT_DIR$/dist/client/static/bundle.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/graphql.js" afterPath="$PROJECT_DIR$/server/graphql.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -92,8 +86,8 @@
       <file leaf-file-name="graphql.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/server/graphql.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="436">
-              <caret line="36" column="10" lean-forward="true" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
+            <state relative-caret-position="857">
+              <caret line="61" column="12" lean-forward="true" selection-start-line="61" selection-start-column="12" selection-end-line="61" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -494,12 +488,12 @@
       <workItem from="1530894126346" duration="185165000" />
       <workItem from="1531254319089" duration="11213000" />
       <workItem from="1531497038939" duration="97831000" />
-      <workItem from="1531852026470" duration="19508000" />
+      <workItem from="1531852026470" duration="19842000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="313717000" />
+    <option name="totallyTimeSpent" value="314051000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="45" width="1910" height="1151" extended-state="0" />
@@ -833,8 +827,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/server/graphql.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="36" column="10" lean-forward="true" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
+        <state relative-caret-position="857">
+          <caret line="61" column="12" lean-forward="true" selection-start-line="61" selection-start-column="12" selection-end-line="61" selection-end-column="12" />
           <folding />
         </state>
       </provider>

@@ -31,7 +31,7 @@ function graphqlMiddleware() {
     },
     '3': {
       id: '3',
-      manifest: 'http://www-itec.uni-klu.ac.at/ftp/datasets/DASHDataset2014/TheSwissAccount/15sec/TheSwissAccount_15s_onDemand_2014_05_09.mpd',
+      manifest: 'https://www-itec.uni-klu.ac.at/ftp/datasets/DASHDataset2014/TheSwissAccount/15sec/TheSwissAccount_15s_onDemand_2014_05_09.mpd',
       name: 'The swiss account',
     },
     '4': {
@@ -46,22 +46,22 @@ function graphqlMiddleware() {
       },
       '6': {
         id: '6',
-        manifest: 'http://www-itec.uni-klu.ac.at/ftp/datasets/DASHDataset2014/ElephantsDream/15sec/ElephantsDream_15s_onDemand_2014_05_09.mpd',
+        manifest: 'https://www-itec.uni-klu.ac.at/ftp/datasets/DASHDataset2014/ElephantsDream/15sec/ElephantsDream_15s_onDemand_2014_05_09.mpd',
         name: 'Elephant dream'
       },
       '7': {
         id: '7',
-        manifest: 'http://www-itec.uni-klu.ac.at/ftp/datasets/DASHDataset2014/OfForestAndMen/15sec/OfForestAndMen_15s_onDemand_2014_05_09.mpd',
+        manifest: 'https://www-itec.uni-klu.ac.at/ftp/datasets/DASHDataset2014/OfForestAndMen/15sec/OfForestAndMen_15s_onDemand_2014_05_09.mpd',
         name: 'Forest man'
       },
       '8': {
         id: '8',
-        manifest: 'http://www-itec.uni-klu.ac.at/ftp/datasets/DASHDataset2014/Valkaama/15sec/Valkaama_15s_onDemand_2014_05_09.mpd',
+        manifest: 'https://www-itec.uni-klu.ac.at/ftp/datasets/DASHDataset2014/Valkaama/15sec/Valkaama_15s_onDemand_2014_05_09.mpd',
         name: 'Valkaama'
       },
       '9': {
         id: '9',
-        manifest: 'http://www-itec.uni-klu.ac.at/ftp/datasets/DASHDataset2014/RedBullPlayStreets/15sec/RedBull_15s_onDemand_2014_05_09.mpd',
+        manifest: 'https://www-itec.uni-klu.ac.at/ftp/datasets/DASHDataset2014/RedBullPlayStreets/15sec/RedBull_15s_onDemand_2014_05_09.mpd',
         name: 'Redbull playstreet'
       }
   };
