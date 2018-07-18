@@ -41,6 +41,26 @@ const controls = props => {
         });
     }
 
+    function formatTime(time) {
+        const sec_num = parseInt(time, 10); // don't forget the second param
+        let hours = Math.floor(sec_num / 3600);
+        let minutes = Math.floor((sec_num - (hours * 3600)) / 60);
+        let seconds = sec_num - (hours * 3600) - (minutes * 60);
+
+        if (hours < 10) {
+            hours   = "0"+hours;
+        }
+        if (minutes < 10) {
+            minutes = "0"+minutes;
+        }
+        if (seconds < 10) {
+            seconds = "0"+seconds;
+        }
+
+        return hours+':'+minutes+':'+seconds;
+    }
+
+
     return (
         <div className='controls'>
             <progress
@@ -51,6 +71,8 @@ const controls = props => {
                 value={props.progress || 0}>
             </progress>
             <div className="buttons">
+                <span className="current-time">{formatTime(props.currentTime)}</span>
+                <span className="duration-time">{formatTime(props.duration)}</span>
                 <button
                     className='play'
                     title='play'
@@ -92,7 +114,7 @@ function mapStateToProps (state) {
         duration: state.player.duration,
         currentTime: state.player.currentTime,
         audio: state.player.audio,
-        progress: state.player.progress
+        progress: state.player.progress,
     }
 }
 

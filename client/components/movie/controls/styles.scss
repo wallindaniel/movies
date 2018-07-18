@@ -2,10 +2,24 @@
   background-color: #eee;
   border-radius: 0 0 5px 5px;
   margin-top: -8px;
-  position: absolute;
+  position: relative;
   width: calc(100% + 4px);
   text-align: center;
   left: -2px;
+
+  .current-time {
+    position: absolute;
+    left: 10px;
+    font-size: 13px;
+    font-family: arial, 'sans-serif';
+  }
+
+  .duration-time {
+    position: absolute;
+    right: 10px;
+    font-size: 13px;
+    font-family: arial, 'sans-serif';
+  }
 
   .progress {
     display: inline-block;
