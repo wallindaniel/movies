@@ -12,7 +12,7 @@ const Movies = props => (
 
             return (
                 <Fragment>
-                    <h1 className="heading">Movie List</h1>
+                    <h1 className="heading">Movie Library</h1>
                     <ul className="movie-list">
                         {movies.map(movie => (
                             <div key={movie.id} className="list-item-wrapper">
